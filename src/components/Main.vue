@@ -1,5 +1,8 @@
 <template>
     <main>
+        <div class="top-name">
+            Airowl Gasga.
+        </div>
         <Intro />
         <AboutMe />
         <Projects />
@@ -25,5 +28,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '../scss/style.scss';
+
+main{
+    position: relative;
+
+    div.top-name{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
 
 </style>
