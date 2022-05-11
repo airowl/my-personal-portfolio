@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: $primary-color;
     color: $font-color;
@@ -24,8 +28,7 @@ a{
 }
 
 section{
-    padding-top: 6rem;
-    border: 1px solid red;
+    padding-top: 10rem;
 }
 
 div.container{
