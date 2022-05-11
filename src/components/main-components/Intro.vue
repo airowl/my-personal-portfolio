@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="intro">
         <div class="container">
             <h1>
                 Ciao, sono <span>Airowl</span>
@@ -22,5 +22,12 @@ export default {
 
 <style lang="scss" scoped>
 @import '../../scss/style.scss';
+
+section#intro{
+
+    h2{
+        margin-bottom: 1rem;
+    }
+}
 
 </style>
