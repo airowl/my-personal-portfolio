@@ -1,4 +1,5 @@
 @import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 
 // RESET
 *,
@@ -12,4 +13,29 @@
 body{
     background-color: $primary-color;
     color: $font-color;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: $mb-fnt-lrg;
+}
+
+h2{
+    font-size: $mb-fnt-md;
+}
+
+p{
+    font-size: $mb-fnt-sml;
+}
+
+li{
+    list-style-type: none;
+
+    a{
+        font-size: $mb-fnt-xml;
+    }
+}
+
+a.btn{
+    font-size: $mb-fnt-btn;
 }
