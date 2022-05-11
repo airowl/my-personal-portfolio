@@ -23,6 +23,17 @@ a{
     font-size: $mb-fnt-xml;
 }
 
+section{
+    padding-top: 6rem;
+    border: 1px solid red;
+}
+
+div.container{
+    margin: 0 auto;
+    max-width: 36rem;
+    width: 80%;
+}
+
 h1{
     font-size: $mb-fnt-lrg;
     font-weight: 700;
@@ -49,6 +60,11 @@ a.btn{
     height: 2.88rem;
     background-color: transparent;
     border: 2px solid $special-font-color;
+    color: $special-font-color;
     border-radius: .75rem;
     @include d-flex(row, center, center);
+}
+
+span{
+    color: $special-font-color;
 }
