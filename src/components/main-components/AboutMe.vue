@@ -6,7 +6,7 @@
                 about me
             </h1>
             <p>
-                Mi chiamo <span>Airowl Gasga</span>, ho 23 anni e da sempre sono un appassionato di informatica e tecnologia. Sono di Nazionalità Filippina 🇵🇭  ma sono nato e cresciuto (per quasi tutta la vita) a Milano, ho conseguito il titolo di <span>Junior Full Stack Web Developer</span> presso il corso formativo di Boolean Careers. Sono sempre alla ricerca di cose nuove da imparare e cerco di tenermi aggiornato riguardo gli ultimi trend di sviluppo e tecnologie utilizzate. 
+                Mi chiamo <span>Airowl Gasga</span>, ho 23 anni e da sempre sono un appassionato di informatica e tecnologia. Sono Filippino 🇵🇭  ma sono nato e cresciuto (per quasi tutta la vita) a Milano, ho conseguito il titolo di <span>Junior Full Stack Web Developer</span> presso il corso formativo di Boolean Careers. Sono sempre alla ricerca di cose nuove da imparare e cerco di tenermi aggiornato riguardo gli ultimi trend di sviluppo e tecnologie utilizzate. 
             </p>
             <p>
                 Le principali tecnologie che utilizzo sono queste:
