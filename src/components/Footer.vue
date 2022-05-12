@@ -15,7 +15,7 @@ export default {
 @import '../scss/style.scss';
 
 footer{
-    padding-top: 3.5rem;
+    padding-top: 6rem;
     padding-bottom: 1rem;
     text-align: center;
 }
