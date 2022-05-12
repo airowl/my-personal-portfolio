@@ -29,27 +29,21 @@ export default {
                 {
                     title: 'Fylo landing page',
                     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: [
-                        'html & css', 'vuejs'
-                    ],
+                    techs: 'html & css, vuejs',
                     iconResourse: '',
                     url: 'www.google.com'
                 },
                 {
                     title: 'Fylo landing page',
                     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: [
-                        'html & css', 'vuejs'
-                    ],
+                    techs: 'html & css, vuejs',
                     iconResourse: '',
                     url: 'www.google.com'
                 },
                 {
                     title: 'Fylo landing page',
                     text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: [
-                        'html & css', 'vuejs'
-                    ],
+                    techs: 'html & css, vuejs',
                     iconResourse: '',
                     url: 'www.google.com'
                 }
@@ -63,6 +57,10 @@ export default {
 @import '../../scss/style.scss';
 
 section#projects{
+
+    h1{
+        margin-bottom: 1.5rem;
+    }
 
     div.wrapper-card{
         @include d-flex(row, start, start);
