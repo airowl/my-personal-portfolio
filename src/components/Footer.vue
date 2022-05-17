@@ -1,7 +1,7 @@
 <template>
     <footer>
         <p>made by Airowl Gasga.</p>
-        <p>All right reserved ©</p>
+        <p>all right reserved ©</p>
     </footer>
 </template>
 

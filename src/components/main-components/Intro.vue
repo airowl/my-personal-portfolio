@@ -2,10 +2,10 @@
     <section id="intro">
         <div class="container">
             <h1>
-                Ciao, sono <span>Airowl</span>
+                ciao, sono <span>Airowl</span>
             </h1>
             <h2>
-                Sono un Junior Full Stack Web Developer
+                sono un Junior Full Stack Web Developer
             </h2>
             <a href="#" class="btn">
                 Know me

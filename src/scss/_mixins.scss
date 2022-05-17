@@ -4,3 +4,9 @@
     justify-content: $jst-ctn;
     align-items: $alg-items;
 }
+
+@mixin breakpoint-up() {
+    @media (min-width: 1200px){
+        @content;
+    }
+}

@@ -33,13 +33,24 @@ div.card{
     padding: 2rem;
     @include d-flex(column, space-between, start);
 
+    @include breakpoint-up(){
+        width: 18.13rem;
+        height: 18.13rem;
+    };
+
+    h2{
+        @include breakpoint-up(){
+            font-size: 1.5rem;
+        };
+    }
+
     p{
         font-size: .6rem;
     }
 
     div.bottom{
         width: 100%;
-        @include d-flex(row, space-between, center);
+        @include d-flex(row, space-between, end);
 
         span{
             font-size: .6rem;
