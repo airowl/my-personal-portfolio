@@ -17,6 +17,7 @@
 
 <script>
 import ProjectCard from './ProjectCard.vue';
+import data from '../../assets/data.json';
 
 export default {
     name: 'sectionProjects',
@@ -25,43 +26,44 @@ export default {
     },
     data: function(){
         return {
-            cardList: [
-                {
-                    title: 'Fylo landing page',
-                    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: 'html & css, vuejs',
-                    iconResourse: '',
-                    url: 'www.google.com'
-                },
-                {
-                    title: 'Fylo landing page',
-                    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: 'html & css, vuejs',
-                    iconResourse: '',
-                    url: 'www.google.com'
-                },
-                {
-                    title: 'Fylo landing page',
-                    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: 'html & css, vuejs',
-                    iconResourse: '',
-                    url: 'www.google.com'
-                },
-                {
-                    title: 'Fylo landing page',
-                    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: 'html & css, vuejs',
-                    iconResourse: '',
-                    url: 'www.google.com'
-                },
-                {
-                    title: 'Fylo landing page',
-                    text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
-                    techs: 'html & css, vuejs',
-                    iconResourse: '',
-                    url: 'www.google.com'
-                }
-            ]
+            cardList: data
+            //cardList: [
+            //    {
+            //        title: 'Fylo landing page',
+            //        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
+            //        techs: 'html & css, vuejs',
+            //        iconResourse: '',
+            //        url: 'www.google.com'
+            //    },
+            //    {
+            //        title: 'Fylo landing page',
+            //        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
+            //        techs: 'html & css, vuejs',
+            //        iconResourse: '',
+            //        url: 'www.google.com'
+            //    },
+            //    {
+            //        title: 'Fylo landing page',
+            //        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
+            //        techs: 'html & css, vuejs',
+            //        iconResourse: '',
+            //        url: 'www.google.com'
+            //    },
+            //    {
+            //        title: 'Fylo landing page',
+            //        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
+            //        techs: 'html & css, vuejs',
+            //        iconResourse: '',
+            //        url: 'www.google.com'
+            //    },
+            //    {
+            //        title: 'Fylo landing page',
+            //        text: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an.',
+            //        techs: 'html & css, vuejs',
+            //        iconResourse: '',
+            //        url: 'www.google.com'
+            //    }
+            //]
         }
     }
 }
