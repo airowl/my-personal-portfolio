@@ -6,7 +6,7 @@
             <span>
                 {{ elementList.techs }}
             </span>
-            <a :href="elementList.url">
+            <a :href="elementList.url" target="_blank" >
                 <i class="fa-brands fa-github"></i>
             </a>
         </div>
