@@ -1,13 +1,13 @@
 <template>
     <section id="intro">
         <div class="container">
-            <h1>
+            <h1 data-aos="fade-up">
                 hi, i'm <span>Airowl</span>
             </h1>
-            <h2>
+            <h2 data-aos="fade-up">
                 Junior Full Stack Web Developer
             </h2>
-            <a href="#" class="btn">
+            <a href="#" class="btn" data-aos="fade-up">
                 Know me
             </a>
         </div>

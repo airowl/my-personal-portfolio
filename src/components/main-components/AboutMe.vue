@@ -1,6 +1,6 @@
 <template>
     <section id="about-me">
-        <div class="container">
+        <div class="container" data-aos="fade-up">
             <img src="../../assets/me.png" alt="Airowl Gasga">
             <div class="text">
                 <h1>

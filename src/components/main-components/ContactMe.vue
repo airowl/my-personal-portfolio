@@ -1,11 +1,11 @@
 <template>
     <section id="contact-me">
         <div class="container">
-            <h1>
+            <h1 data-aos="fade-up">
                 connect with me
             </h1>
             <ul class="social-icons">
-                <li v-for="(element, index) in socialList" :key="index">
+                <li v-for="(element, index) in socialList" :key="index" data-aos="fade-up">
                     <a :href="element.url">
                         <i :class="element.icon"></i>
                     </a>

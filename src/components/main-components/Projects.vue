@@ -1,7 +1,7 @@
 <template>
     <section id="projects">
         <div class="container">
-            <h1>
+            <h1 data-aos="fade-up">
                 projects
             </h1>
             <div class="wrapper-card">
@@ -9,6 +9,7 @@
                     v-for="(element, index) in cardList" 
                     :key="index"
                     :elementList="element" 
+                    data-aos="fade-up"
                 />
             </div>
         </div>

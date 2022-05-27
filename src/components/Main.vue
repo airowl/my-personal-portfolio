@@ -1,6 +1,6 @@
 <template>
     <main>
-        <div class="top-name">
+        <div class="top-name" data-aos="fade-up">
             Airowl Gasga.
         </div>
         <Intro />
