@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import axios from 'axios';
 import Intro from './main-components/Intro.vue';
 import AboutMe from './main-components/AboutMe.vue';
 import Projects from './main-components/Projects.vue';
@@ -23,6 +24,17 @@ export default {
         AboutMe,
         Projects,
         ContactMe
+    },
+    created() {
+        this.getPosts();
+    },
+    methods: {
+        getPosts(){
+            axios.get('http://localhost:8000/api/posts')
+            .then( (response) => {
+                console.log(response.data.results);
+            });
+        }
     }
 }
 </script>
