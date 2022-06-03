@@ -7,7 +7,7 @@
             <h2 data-aos="fade-up">
                 Junior Full Stack Web Developer
             </h2>
-            <a href="#" class="btn" data-aos="fade-up">
+            <a href="mailto:airowl.gasga@gmail.com" class="btn" data-aos="fade-up">
                 Know me
             </a>
         </div>
