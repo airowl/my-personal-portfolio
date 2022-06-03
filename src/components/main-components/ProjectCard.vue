@@ -1,6 +1,8 @@
 <template>
     <div class="card">
-        <h2>{{ elementList.title }}</h2>
+        <router-link :to="{ name: 'projectsHome', params: {id: elementList.title} }">
+            <h2>{{ elementList.title }}</h2>
+        </router-link>
         <p>{{ elementList.text }}</p>
         <div class="bottom">
             <span>
