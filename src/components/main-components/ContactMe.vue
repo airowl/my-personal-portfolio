@@ -5,8 +5,8 @@
                 connect with me
             </h1>
             <ul class="social-icons">
-                <li v-for="(element, index) in socialList" :key="index" data-aos="fade-up">
-                    <a :href="element.url">
+                <li v-for="(element, index) in socialList" :key="index" data-aos="fade-up" >
+                    <a :href="element.url" target="_blank">
                         <i :class="element.icon"></i>
                     </a>
                 </li>
@@ -23,15 +23,15 @@ export default {
             socialList: [
                 {
                     icon: 'fa-brands fa-github',
-                    url: '#'
+                    url: 'https://github.com/airowl'
                 },
                 {
                     icon: 'fa-brands fa-linkedin',
-                    url: '#'
+                    url: 'https://www.linkedin.com/in/airowl-gasga-9a420b225/'
                 },
                 {
                     icon: 'fa-solid fa-envelope',
-                    url: '#'
+                    url: 'mailto:airowl.gasga@gmail.com'
                 }
             ]
         }
