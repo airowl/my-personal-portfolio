@@ -7,7 +7,7 @@
                     about me
                 </h1>
                 <p>
-                    My name is <span>Airowl Gasga</span>, I am 23 years old and I have always been an IT and technology enthusiast. I'm Filipino 🇵🇭 but I was born and raised (most of my life) in Milan, Italy, I got my <span>Junior Full Stack Web Developer</span> degree from Boolean Careers training course. I am always looking for new things to learn and try to keep myself updated regarding the latest development trends and technologies used.
+                    My name is <span>Airowl Gasga</span>, I am 23 years old and I have always been an IT and technology enthusiast. I'm Filipino but I was born and raised (most of my life) in Milan, Italy, I got my <span>Junior Full Stack Web Developer</span> degree from Boolean Careers training course. I am always looking for new things to learn and try to keep myself updated regarding the latest development trends and technologies used.
                 </p>
                 <p>
                     The main technologies I use are these:
@@ -18,7 +18,7 @@
                     </li>
                 </ul>
                 <p>
-                    Outside of work, I like to read manga and watch Japanese anime, sometimes I'm also a volleyball player and I'm a riser.
+                    Outside of work, I like to read manga, watch Japanese anime and play volleyball.
                 </p>
             </div>
             

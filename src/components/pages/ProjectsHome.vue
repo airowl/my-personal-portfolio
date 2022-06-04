@@ -25,7 +25,7 @@ export default {
     mounted() {
         this.getElement();
         console.log(this.element);
-    }
+    },
 }
 </script>
 
