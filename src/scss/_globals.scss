@@ -26,6 +26,11 @@ a{
     color: $font-color;
     font-size: $mb-fnt-xml;
     font-weight: 700;
+    transition: $default-transition;
+
+    &:hover{
+        color: $special-font-color;
+    }
 
     @include breakpoint-up(){
         font-size: $dk-fnt-xml;
@@ -87,6 +92,12 @@ a.btn{
     color: $special-font-color;
     border-radius: .75rem;
     @include d-flex(row, center, center);
+    transition: $default-transition;
+
+    &:hover{
+        background-color: $special-font-color;
+        color: #000;
+    }
 
     @include breakpoint-up(){
         font-size: $dk-fnt-btn;
