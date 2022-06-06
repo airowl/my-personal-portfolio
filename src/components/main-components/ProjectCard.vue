@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <router-link :to="{ name: 'projectsHome', params: {id: elementList.title} }">
+        <router-link :to="{ name: 'projectsHome', params: {id: getSlug(elementList.title)} }">
             <h2>{{ elementList.title }}</h2>
         </router-link>
         <p>{{ elementList.text }}</p>
@@ -21,6 +21,11 @@ export default {
     props: {
         elementList: Object
     },
+    methods: {
+        getSlug(title){
+            return title.split(' ').join('-');
+        }
+    }
 }
 </script>
 
