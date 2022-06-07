@@ -10,6 +10,7 @@
                     :key="index"
                     :elementList="element" 
                     data-aos="fade-up"
+                    :class="index % 2 ? 'margin-top' : '' "
                 />
             </div>
         </div>
@@ -43,9 +44,13 @@ section#projects{
     }
 
     div.wrapper-card{
-        @include d-flex(row, start, start);
+        @include d-flex(row, space-evenly, start);
         flex-wrap: wrap;
         gap: 1rem;
+    }
+
+    .margin-top{
+        margin-top: 15rem;
     }
 }
 
