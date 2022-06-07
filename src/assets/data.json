@@ -1,69 +1,55 @@
 [
     {
         "title": "vuejs landing page",
-        "text": "A VueJS landing page project created for a consulting firm.",
-        "techs": "html & css, vuejs",
         "iconTechs": [
             "fa-brands fa-html5",
             "fa-brands fa-css3",
-            "fa-brands fa-vuejs"
+            "fa-brands fa-vuejs",
+            "fa-brands fa-npm",
+            "fa-brands fa-sass",
+            "fa-brands fa-js"
         ],
-        "url": "https://github.com/airowl/proj-html-vuejs", 
-        "images": [
-            "vue-proj/1.png",
-            "vue-proj/2.png",
-            "vue-proj/3.png",
-            "vue-proj/4.png",
-            "vue-proj/5.png",
-            "vue-proj/6.png",
-            "vue-proj/7.png",
-            "vue-proj/8.png",
-            "vue-proj/9.png"
-        ]
+        "url": "https://github.com/airowl/proj-html-vuejs",
+        "live": "https://proj-html-vuejs-boolean.netlify.app/", 
+        "image": "vue-proj.png"
     },
     {
         "title": "vue boolflix",
-        "text": "A new generation of streaming done with VueJs",
-        "techs": "html & css, vuejs",
         "iconTechs": [
             "fa-brands fa-html5",
             "fa-brands fa-css3",
-            "fa-brands fa-vuejs"
+            "fa-brands fa-vuejs",
+            "fa-brands fa-npm",
+            "fa-brands fa-sass",
+            "fa-brands fa-js"
         ],
         "url": "https://github.com/airowl/vue-boolflix",
-        "images": [
-            "vue-proj/2.png",
-            "https://blog.pusher.com/wp-content/uploads/2017/12/getting-started-pwa-vue.png"
-        ]
+        "live": "https://vue-boolflix.netlify.app/", 
+        "image": "vue-boolflix.png"
     },
     {
         "title": "vue boolzapp",
-        "text": "A new generation of streaming done with VueJs",
-        "techs": "html & css, vuejs",
         "iconTechs": [
             "fa-brands fa-html5",
             "fa-brands fa-css3",
-            "fa-brands fa-vuejs"
+            "fa-brands fa-js"
         ],
         "url": "https://github.com/airowl/vue-boolflix",
-        "images": [
-            "vue-proj/3.png",
-            "https://blog.pusher.com/wp-content/uploads/2017/12/getting-started-pwa-vue.png"
-        ]
+        "live": "https://airowl.github.io/vue-boolzapp/", 
+        "image": "vue-boolzapp.png"
     },
     {
-        "title": "Ciao boolflix",
-        "text": "A new generation of streaming done with VueJs",
-        "techs": "html & css, vuejs",
+        "title": "Vue DC Comics",
         "iconTechs": [
             "fa-brands fa-html5",
             "fa-brands fa-css3",
-            "fa-brands fa-vuejs"
+            "fa-brands fa-vuejs",
+            "fa-brands fa-npm",
+            "fa-brands fa-sass",
+            "fa-brands fa-js"
         ],
         "url": "https://github.com/airowl/vue-boolflix",
-        "images": [
-            "vue-proj/1.png",
-            "https://blog.pusher.com/wp-content/uploads/2017/12/getting-started-pwa-vue.png"
-        ]
+        "live": "https://vue-dc-comics.netlify.app/", 
+        "image": "vue-dc-comics.png"
     }
 ]
