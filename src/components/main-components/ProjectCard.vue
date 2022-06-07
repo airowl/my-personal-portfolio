@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <img :src="require(`@/assets/img/${elementList.images[0]}`)" :alt="elementList.title">
+        <img :src="require(`@/assets/img/${elementList.image}`)" :alt="elementList.title">
         <div class="content">
             <!--<router-link :to="{ name: 'projectsHome', params: {id: getSlug(elementList.title)} }">-->
                 <a :href="elementList.live" target="_blank" rel="noopener noreferrer">
@@ -31,9 +31,9 @@ export default {
         }
     },
     methods: {
-        getSlug(title){
-            return title.split(' ').join('-');
-        },
+        //getSlug(title){
+        //    return title.split(' ').join('-');
+        //},
         getFirstUppercase(element){
             return element.charAt(0).toUpperCase() + element.slice(1);
         }
@@ -50,6 +50,7 @@ div.card{
     border-radius: 1.5rem;
     overflow: hidden;
     position: relative;
+    background-color: rgba($font-color, $alpha: .5);
 
     @include breakpoint-up(){
         width: 32rem;
