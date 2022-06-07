@@ -1,13 +1,13 @@
 <template>
     <div id="project-home">
-        <!--<div>{{ element.title }}</div>-->
+        <div>{{ this.$route.params.id }}</div>
         <div class="container">
             <h1>{{ getFirstUppercase(element.title) }}</h1>
             <div class="thumbnail" @mouseleave="autoPlay()" @mouseover="stopAutoPlay()">
                 <div class="arrow-left" @click="prevThumb()">
                     <i class="fa-solid fa-chevron-left"></i>
                 </div>
-                    <img :src="image" :alt="element.title" v-for="(image, index) in element.images" :key="index" :class="(index == activeElement) ? 'active' : ''">
+                    <img :src="require(`@/assets/img/${image}`)" :alt="element.title" v-for="(image, index) in element.images" :key="index" :class="(index == activeElement) ? 'active' : ''">
                 <div class="arrow-right" @click="nextThumb()">
                     <i class="fa-solid fa-chevron-right"></i>
                 </div>
@@ -103,7 +103,7 @@ div#project-home{
             img{
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
+                object-fit: contain;
                 display: none;
 
                 &.active{
