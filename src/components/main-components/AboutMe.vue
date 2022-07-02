@@ -4,13 +4,13 @@
             <img src="../../assets/me.png" alt="Airowl Gasga">
             <div class="text">
                 <h1>
-                    about me
+                    chi sono
                 </h1>
                 <p>
-                    My name is <span>Airowl Gasga</span>, I am 23 years old and I have always been an IT and technology enthusiast. I'm Filipino but I was born and raised (most of my life) in Milan, Italy, I got my <span>Junior Full Stack Web Developer</span> degree from Boolean Careers training course. I am always looking for new things to learn and try to keep myself updated regarding the latest development trends and technologies used.
+                    Mi chiamo <span>Airowl Gasga</span>, ho 23 anni e sono sempre stato un appassionato di informatica e tecnologia. Sono filippino ma sono nato e cresciuto (per la maggior parte della mia vita) a Milano, Italia, ho conseguito il diploma di <span>Junior Full Stack Web Developer</span> presso il corso di formazione Boolean Careers. Sono sempre alla ricerca di nuove cose da imparare e cerco di tenermi aggiornato sulle ultime tendenze di sviluppo e sulle tecnologie utilizzate.
                 </p>
                 <p>
-                    The main technologies I use are these:
+                    Le principali tecnologie che utilizzo sono queste:
                 </p>
                 <ul>
                     <li v-for="(element, index) in tech" :key="index">
@@ -18,7 +18,7 @@
                     </li>
                 </ul>
                 <p>
-                    Outside of work, I like to read manga, watch Japanese anime and play volleyball.
+                    Al di fuori del lavoro, mi piace leggere manga, guardare anime giapponesi e giocare a pallavolo.
                 </p>
             </div>
             

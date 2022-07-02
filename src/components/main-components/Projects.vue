@@ -2,7 +2,7 @@
     <section id="projects">
         <div class="container">
             <h1 data-aos="fade-up">
-                projects
+                I miei progetti
             </h1>
             <div class="wrapper-card">
                 <ProjectCard 

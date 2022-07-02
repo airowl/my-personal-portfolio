@@ -2,13 +2,13 @@
     <section id="intro">
         <div class="container">
             <h1 data-aos="fade-up">
-                hi, i'm <span>Airowl</span>
+                Ciao, sono <span>Airowl</span>
             </h1>
             <h2 data-aos="fade-up">
                 Junior Full Stack Web Developer
             </h2>
             <a href="mailto:airowl.gasga@gmail.com" class="btn" data-aos="fade-up">
-                Know me
+                Scrivimi
             </a>
         </div>
     </section>

@@ -2,7 +2,7 @@
     <section id="contact-me">
         <div class="container">
             <h1 data-aos="fade-up">
-                connect with me
+                scrivimi qui
             </h1>
             <ul class="social-icons">
                 <li v-for="(element, index) in socialList" :key="index" data-aos="fade-up" >
