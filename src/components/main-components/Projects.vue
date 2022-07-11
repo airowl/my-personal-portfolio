@@ -50,7 +50,10 @@ section#projects{
     }
 
     .margin-top{
-        margin-top: 15rem;
+
+        @include breakpoint-up(){
+            margin-top: 10rem;
+        }
     }
 }
 

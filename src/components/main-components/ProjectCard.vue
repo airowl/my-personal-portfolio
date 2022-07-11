@@ -120,6 +120,11 @@ div.card{
             color: #000;
         }
     }
+
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
 }
 
 </style>
