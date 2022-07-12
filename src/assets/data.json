@@ -51,5 +51,120 @@
         "url": "https://github.com/airowl/vue-boolflix",
         "live": "https://vue-dc-comics.netlify.app/", 
         "image": "vue-dc-comics.png"
+    },
+    {
+        "title": "Js Social Posts",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3",
+            "fa-brands fa-js"
+        ],
+        "url": "https://github.com/airowl/js-social-posts",
+        "live": "https://airowl.github.io/js-social-posts/", 
+        "image": "js-social-posts.png"
+    },
+    {
+        "title": "Js Train Ticket",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3",
+            "fa-brands fa-js"
+        ],
+        "url": "https://github.com/airowl/js-biglietto-treno-form",
+        "live": "https://airowl.github.io/js-biglietto-treno-form/", 
+        "image": "js-train-ticket.png"
+    },
+    {
+        "title": "NFT Card Component",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3"
+        ],
+        "url": "https://github.com/airowl/nft-preview-card-component-main",
+        "live": "https://airowl.github.io/nft-preview-card-component-main/", 
+        "image": "nft-card-component.png"
+    },
+    {
+        "title": "3 Column Card",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3"
+        ],
+        "url": "https://github.com/airowl/3-column-preview-card-component-main",
+        "live": "https://airowl.github.io/3-column-preview-card-component-main/", 
+        "image": "3-column-card.png"
+    },
+    {
+        "title": "Single Price Card",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3"
+        ],
+        "url": "https://github.com/airowl/single-price-grid-component-master",
+        "live": "https://airowl.github.io/single-price-grid-component-master/", 
+        "image": "single-price-card.png"
+    },
+    {
+        "title": "DropBox Website",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3"
+        ],
+        "url": "https://github.com/airowl/htmlcss-dropbox",
+        "live": "https://airowl.github.io/htmlcss-dropbox/", 
+        "image": "dropbox.png"
+    },
+    {
+        "title": "Discord Website",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3"
+        ],
+        "url": "https://github.com/airowl/htmlcss-discord",
+        "live": "https://airowl.github.io/htmlcss-discord/", 
+        "image": "discord.png"
+    },
+    {
+        "title": "To Do List",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3",
+            "fa-brands fa-js"
+        ],
+        "url": "https://github.com/airowl/vue-todolist",
+        "live": "https://airowl.github.io/vue-todolist/", 
+        "image": "to-do-list.png"
+    },
+    {
+        "title": "Js Carousel",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3",
+            "fa-brands fa-js"
+        ],
+        "url": "https://github.com/airowl/js-array-objects-carousel",
+        "live": "https://airowl.github.io/js-array-objects-carousel/", 
+        "image": "js-carousel.png"
+    },
+    {
+        "title": "Playstation Website",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3",
+            "fa-brands fa-bootstrap"
+        ],
+        "url": "https://github.com/airowl/htmlcss-playstation",
+        "live": "https://airowl.github.io/htmlcss-playstation/", 
+        "image": "playstation.png"
+    },
+    {
+        "title": "Spotify Web App",
+        "iconTechs": [
+            "fa-brands fa-html5",
+            "fa-brands fa-css3"
+        ],
+        "url": "https://github.com/airowl/html-css-spotifyweb",
+        "live": "https://airowl.github.io/html-css-spotifyweb/", 
+        "image": "spotify.png"
     }
 ]

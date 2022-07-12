@@ -5,13 +5,16 @@
                 I miei progetti
             </h1>
             <div class="wrapper-card">
-                <ProjectCard 
+                <div 
                     v-for="(element, index) in cardList" 
                     :key="index"
-                    :elementList="element" 
-                    data-aos="fade-up"
-                    :class="index % 2 ? 'margin-top' : '' "
-                />
+                >
+                    <ProjectCard 
+                        :elementList="element" 
+                        data-aos="fade-up"
+                        :class="index % 2 ? 'margin-top' : '' "
+                    />
+                </div>
             </div>
         </div>
     </section>
@@ -44,7 +47,7 @@ section#projects{
     }
 
     div.wrapper-card{
-        @include d-flex(row, space-evenly, start);
+        @include d-flex(row, space-between, start);
         flex-wrap: wrap;
         gap: 1rem;
     }

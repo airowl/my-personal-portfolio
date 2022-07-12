@@ -53,7 +53,7 @@ div.card{
     background-color: rgba($font-color, $alpha: .5);
 
     @include breakpoint-up(){
-        width: 32rem;
+        width: 40rem;
         height: 28.13rem;
     };
 
